@@ -1,10 +1,12 @@
 # phan_tich_cv
-input_cv 
+* API: 127.0.0.1:8000/extract_cv
+* input_cv 
 ![input_cv](https://github.com/LeNamHUST/phan_tich_cv/assets/136665511/07cb57dd-ab13-46d0-85a1-d2c1c58362df)
-Sử dụng thuật toán Yolo đã được train với data cv để detect các trường: name, job_title, avatar, infor, block
+* Sử dụng thuật toán Yolo đã được train với data cv để detect các trường: name, job_title, avatar, infor, block
 ![detect_image](https://github.com/LeNamHUST/phan_tich_cv/assets/136665511/28114854-c9ea-4b9a-9c6c-c6e27c08e87e)
-Sử dụng thuật toán PaddleOCR để trích xuất text trong các trường.
-output:
+* Sử dụng thuật toán PaddleOCR để trích xuất text trong các trường.
+* output:
+'''
 "FullName": " NGUYỄN NGỌC HUYỀN",
 "DateOfBirth": "26/01/2000",
 "Gender": Null,
@@ -25,3 +27,4 @@ output:
 "Activities": "",
 "Project": "\n Đào tạo nhân viên part -time\n Đào tạo kĩ năng xử lí tình huống\n Tham gia đóng góp ý kiến cải tạo cửa hàng\n Xây durna tình đồng đội trong công việc",
 "AdditionalInformation": " THÔNG TIN THÊM\n Mong sẽ được hợp tác với nhà tuyển dụng sớm\n nhất và tôi sẽ không làm mọi người thất vọng\n Dạ tôi xin cám ơn"
+'''
