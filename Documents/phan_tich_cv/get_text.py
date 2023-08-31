@@ -8,7 +8,7 @@ import numpy as np
 from paddleocr import PaddleOCR, draw_ocr
 import uuid
 import fitz
-from sua_chinh_ta import terminal_input
+from auto_correction import terminal_input
 import subprocess
 
 def pdf2image(pdf_path, dpi):
